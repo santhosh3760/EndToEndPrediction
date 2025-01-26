@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/santhoshreddy/Desktop/vscode/Portfolio_Projects/EndToEndPrediction/mlruns/961798566183625345/de22c1c6c5f444ba9d7e058db8a53792/artifacts
+end_time: 1737872401528
+entry_point_name: ''
+experiment_id: '961798566183625345'
+lifecycle_stage: active
+run_id: de22c1c6c5f444ba9d7e058db8a53792
+run_name: bald-cat-342
+run_uuid: de22c1c6c5f444ba9d7e058db8a53792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737872401451
+status: 3
+tags: []
+user_id: santhoshreddy

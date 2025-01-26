@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/santhoshreddy/Desktop/vscode/Portfolio_Projects/EndToEndPrediction/mlruns/961798566183625345/b4e1505757f44ef4b9747a38ad634ad7/artifacts
+end_time: 1737872626700
+entry_point_name: ''
+experiment_id: '961798566183625345'
+lifecycle_stage: active
+run_id: b4e1505757f44ef4b9747a38ad634ad7
+run_name: silent-ape-608
+run_uuid: b4e1505757f44ef4b9747a38ad634ad7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737872619512
+status: 3
+tags: []
+user_id: santhoshreddy

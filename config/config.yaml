@@ -1,0 +1,36 @@
+# config/config.yaml
+
+# Data configuration
+data:
+  dataset_path: "/Users/santhoshreddy/Desktop/vscode/Portfolio_Projects/EndToEndPrediction/data/cleaned_dataset.csv"  # Path to the dataset
+  train_test_split: 0.8                    # Train-test split ratio
+  batch_size: 32                           # Default batch size (will be overridden during tuning)
+
+# Model configuration
+model:
+  input_size: 32                           # Number of input features
+  hidden_sizes: [64, 32]                   # Default hidden layer sizes (will be overridden during tuning)
+  output_size: 1                           # Number of output units (e.g., for regression)
+  activation: "relu"                       # Activation function (e.g., "relu", "tanh")
+
+# Training configuration
+training:
+  learning_rate: 0.001                     # Default learning rate (will be overridden during tuning)
+  epochs: 10                               # Number of training epochs
+  optimizer: "adam"                        # Optimizer (e.g., "adam", "sgd")
+  loss_fn: "mse"                           # Loss function (e.g., "mse" for regression)
+
+# Hyperparameter tuning configuration
+tuning:
+  n_trials: 10
+  lr_range: [0.0001, 0.01]
+  hidden_sizes_options:
+    - [32, 16]  # Use lists instead of tuples
+    - [64, 32]
+    - [128, 64]
+  batch_size_options: [32, 64, 128]
+
+# MLflow configuration
+mlflow:
+  tracking_uri: "file:./mlruns"            # MLflow tracking URI (local directory)
+  experiment_name: "mlp_experiment"        # MLflow experiment name

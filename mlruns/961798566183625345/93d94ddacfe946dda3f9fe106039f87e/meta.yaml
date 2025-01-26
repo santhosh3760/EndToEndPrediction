@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/santhoshreddy/Desktop/vscode/Portfolio_Projects/EndToEndPrediction/mlruns/961798566183625345/93d94ddacfe946dda3f9fe106039f87e/artifacts
+end_time: 1737872605111
+entry_point_name: ''
+experiment_id: '961798566183625345'
+lifecycle_stage: active
+run_id: 93d94ddacfe946dda3f9fe106039f87e
+run_name: masked-shad-691
+run_uuid: 93d94ddacfe946dda3f9fe106039f87e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737872599400
+status: 3
+tags: []
+user_id: santhoshreddy
